@@ -16,7 +16,7 @@ export const LoadingIndicator = ({ type = 'spinner' }: Props) => {
   return (
     <EuiFlexGroup justifyContent="spaceAround" alignItems="center" gutterSize="none">
       <EuiFlexItem grow={false}>
-        {type === 'spinner' ? <EuiLoadingSpinner size="l" /> : <EuiLoadingElastic size="xxl" />}
+        {type === 'spinner' ? <EuiLoadingSpinner size="l" /> : <EuiLoadingSpinner size="xxl" />}
       </EuiFlexItem>
     </EuiFlexGroup>
   );
